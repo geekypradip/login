@@ -1,0 +1,121 @@
+/**{
+
+box-sizing:border-box;
+}*/
+/*body {
+background-image:url("im1.jpg");
+background-repeat:no-repeat;
+filter:blur(8px);
+}*/
+.bg_img{
+background-image:url("im1.jpg");
+
+//height:100%;
+background-position: center;
+background-repeat:no-repeat;
+background-size: cover;
+
+padding:400px;
+filter:blur(10px);
+}
+.login {
+/*//outline: 5px solid red;
+border: 2px dashed Blue;
+background-color:rgba(0,0,0,0.5);
+//width:
+margin-left: Auto;
+//margin-right:100px;
+margin-top:5px;
+margin-bottom:5px;
+padding:30px;
+outline:1px solid green;
+outline-offset:10px;
+*/
+background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.7); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 50%;
+  height:60%;
+  padding: 20px;
+  text-align: center;
+  padding:50px;
+
+}
+
+#name,#email,#number{
+width:95%;
+border:none;
+background:transparent;
+border-bottom:1px solid white;
+//border-radius:7px;
+//background-color:rgb(0,20,20);
+margin-left:20px;
+//outline:1px solid Navy; 
+//margin-bottom:5px;
+} 
+a{
+text-decoration:none;
+text-shadow:1px 1px red;
+color: green;
+
+}
+button{
+margin-left:100px;
+border:3px solid Gray;
+border-radius:3px;
+padding:5px;
+outline:2px ridge tomato;
+outline-offset:4px;
+cursor:pointer;
+//background:blue;
+width:100px;
+}
+.log{
+border-left:5px solid green;
+border-bottom:4px solid blue;
+margin-left:20px;
+color: white;
+//margin-bottom:;:500px;
+}
+.well{
+text-align:center;
+border-bottom:1px solid tomato;
+text-shadow:1px 1px white;
+}
+h4{
+margin-left:20px;
+color: blue;
+text-shadow:1px 1px white;
+border-bottom:1px solid green;
+}
+#check{
+color:green;
+}
+/*#check:hover{
+background-color:green;
+border:2px solid tomato;
+}*/
+img{
+width:30px;
+}
+button:hover{
+background-color: blue;
+outline:2px solid purple;
+cursor:pointer;
+}
+/*select{
+border:2px groove #ff0012;
+border-left:5px solid red;
+border-radius:5px;
+color:red;
+background-color: orange;
+}*/
+
+
